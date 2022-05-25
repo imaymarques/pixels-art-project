@@ -1,3 +1,16 @@
+#title {
+    text-align: center;
+}
+#color-palette {
+    text-align: center;
+}
+.display {
+    margin-left: 435px;
+    display: grid;
+    grid-template-columns: 80px 80px 80px 80px 80px;
+    grid-template-rows: 80px 80px 80px 80px 80px;
+    margin-block-end: 50px;
+}
 .color {
     border: black solid 1px;
     width: 80px;
@@ -15,4 +28,204 @@
 }
 .roxo {
     background-color: purple;
+}
+.one {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.two {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.three {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.four {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.five {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.six {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.seven {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.eight {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.nine {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.ten {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.eleven {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.twelve {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.thirteen {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.fourteen {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.fifteen {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.sixteen {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.seventeen {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.eigthteen {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.nineteen {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.twelve {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.twelveone {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.twelvetwo {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.twelvethree {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.twelvefour {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
+}
+.twelvefive {
+    border: black solid 1px;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin-top: 50px;
+    background-color: white;
 }
