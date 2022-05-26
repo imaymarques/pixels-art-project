@@ -1,6 +1,9 @@
-// const getId = document.getElementById('pixel-board');
-// for (let index = 0; index <= 25; index += 1) {
-//     let newDiv = document.createElement('div');
-//     getId.appendChild(newDiv);
-//     newDiv.className = "pixel";
-// }
+function changeClass(event) {
+  let select = document.querySelector('.selected');
+  select.classList.remove('selected');
+  event.target.classList.add('selected');
+}
+let palet = document.querySelectorAll('.color');
+for (let index = 0; index < palet.length; index += 1) {
+  palet[index].addEventListener('click', changeClass);
+}
