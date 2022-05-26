@@ -1,6 +1,10 @@
 #title {
     text-align: center;
 }
+.button {
+    text-align: center;
+    margin-top: 20px;
+}
 #color-palette {
     text-align: center;
 }
