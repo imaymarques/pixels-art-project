@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 #title {
     text-align: center;
 }
@@ -11,8 +15,8 @@
 .display {
     margin-left: 537px;
     display: grid;
-    grid-template-columns: 40px 40px 40px 40px 40px;
-    grid-template-rows: 40px 40px 40px 40px 40px;
+    grid-template-columns: repeat(5, 40px);
+    grid-template-rows: repeat(5, 40px);
     margin-block-end: 50px;
     border: 1px;
 }

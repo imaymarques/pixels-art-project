@@ -9,9 +9,11 @@ for (let index = 0; index < palet.length; index += 1) {
 }
 
 function changeColor(event) {
-  let color = document.querySelector('.selected');
-  let background = window.getComputedStyle(color).getPropertyValue('background-color');
-  event.target.style.background = background;
+  if (event.target.classList.contains('pixel')) {
+    let color = document.querySelector('.selected');
+    let background = window.getComputedStyle(color).getPropertyValue('background-color');
+    event.target.style.background = background;
+  }
 }
 
 function click() {
@@ -19,3 +21,12 @@ function click() {
   board.addEventListener('click', changeColor);
 }
 click();
+
+function clearBoard() {
+  let board = document.getElementsByClassName('pixel');
+  for (index = 0; index < board.length; index += 1) {
+    board[index].style.background = 'white';
+  }
+}
+
+let getButton = document.getElementById('clear-board').addEventListener('click', clearBoard);
