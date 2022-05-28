@@ -1,3 +1,15 @@
+// CRIANDO AS 25 DIVS
+
+function creadDivs() {
+  let getSection = document.getElementById('pixel-board');
+  for (let index = 0; index < 25; index += 1) {
+    let newDivs = document.createElement('div');
+    getSection.appendChild(newDivs);
+    newDivs.classList.add('pixel');
+  }
+}
+creadDivs();
+
 function changeClass(event) {
   let select = document.querySelector('.selected');
   select.classList.remove('selected');
@@ -30,3 +42,4 @@ function clearBoard() {
 }
 
 let getButton = document.getElementById('clear-board').addEventListener('click', clearBoard);
+
