@@ -1,14 +1,16 @@
 // CRIANDO AS 25 DIVS
 
-function creadDivs() {
+function creatDivs(num) {
   let getSection = document.getElementById('pixel-board');
-  for (let index = 0; index < 25; index += 1) {
+  for (let index = 0; index < (num * num); index += 1) {
     let newDivs = document.createElement('div');
+    getSection.style.gridTemplateColumns = `repeat(${num}, 40px)`;
+    getSection.style.gridTemplateRows = `repeat(${num}, 40px)`;
     getSection.appendChild(newDivs);
     newDivs.classList.add('pixel');
   }
 }
-creadDivs();
+creatDivs(5);
 
 function changeClass(event) {
   let select = document.querySelector('.selected');
@@ -43,3 +45,20 @@ function clearBoard() {
 
 let getButton = document.getElementById('clear-board').addEventListener('click', clearBoard);
 
+function changeBoard() {
+  const takeButton = document.getElementById('board-size');
+  const getBoard = document.querySelector('#pixel-board');
+  const value = takeButton.value;
+  getBoard.innerHTML = '';
+  if (value === '') {
+    window.alert('Board inválido!');
+  } else if (value <= 5) {
+    creatDivs(5);
+  } else if (value >= 50) {
+    creatDivs(50);
+  } else {
+    creatDivs(takeButton.value);
+  }
+}
+
+const buttonBoard = document.getElementById('generate-board').addEventListener('click', changeBoard);

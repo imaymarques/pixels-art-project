@@ -17,12 +17,9 @@ body {
     text-align: center;
 }
 .display {
-    margin-left: 537px;
     display: grid;
-    grid-template-columns: repeat(5, 40px);
-    grid-template-rows: repeat(5, 40px);
-    margin-block-end: 50px;
     border: 1px;
+    justify-content: center;
 }
 .color {
     border: black solid 1px;
