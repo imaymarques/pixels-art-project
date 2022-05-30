@@ -1,5 +1,3 @@
-// CRIANDO AS 25 DIVS
-
 function creatDivs(num) {
   let getSection = document.getElementById('pixel-board');
   for (let index = 0; index < (num * num); index += 1) {
@@ -62,3 +60,14 @@ function changeBoard() {
 }
 
 const buttonBoard = document.getElementById('generate-board').addEventListener('click', changeBoard);
+
+function randomColors() {
+  const getColor = document.querySelectorAll('#id');
+  for (let button of getColor) {
+    let r = Math.floor(Math.random() * 300);
+    let g = Math.floor(Math.random() * 300);
+    let b = Math.floor(Math.random() * 300);
+    button.style.backgroundColor = `rgb(${r}, ${g}, ${b})`;
+  }
+}
+randomColors();
